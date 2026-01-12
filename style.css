@@ -172,12 +172,12 @@ body {
 .form-control {
     background-color: var(--kart-bg);
     border: 1px solid #334155;
-    color: var(--beyaz);
+    color: black;
     padding: 15px;
 }
 
 .form-control:focus {
-    background-color: #1e293b;
+    background-color: #fefeff;
     border-color: var(--ikincil-renk);
     color: var(--beyaz);
     box-shadow: 0 0 0 0.25rem rgba(14, 165, 233, 0.25);
