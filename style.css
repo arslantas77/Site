@@ -22,14 +22,15 @@ margin-right: 15px;
 
 }
 .tablo-ozel {
-color: black;    
+color: black; 
+overflow-x: auto;   
 width: 100%;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color: #fff; 
 border-radius: 12px; 
 overflow: hidden;
 padding: 10px;
-display: table;
+display:block;
 }
 
 .tablo-ozel th {
@@ -49,6 +50,8 @@ padding: 20px 0;
 }
 .tablo-ozel th {
 font-weight: 700;width: 35%;
+word-wrap: break-word;
+white-space: normal;
 color: #333;
 padding: 15px;
 font-size: 1.25rem; 
@@ -56,6 +59,8 @@ vertical-align: middle;
 }
 .tablo-ozel td {
 vertical-align: middle;
+word-wrap: break-word;
+white-space: normal;
 padding: 12px 15px;
 width: 65%; 
 font-size: 1.4rem;
