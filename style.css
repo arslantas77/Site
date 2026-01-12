@@ -180,6 +180,7 @@ body {
     background-color: #fefeff;
     border-color: var(--ikincil-renk);
     box-shadow: 0 0 0 0.25rem rgba(14, 165, 233, 0.25);
+    color: #000000;
 }
 .card-img-top{
  height: 200px;
